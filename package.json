@@ -1,0 +1,26 @@
+{
+  "name": "revbin",
+  "version": "1.0.0",
+  "description": "Like rev but for binary files.",
+  "main": "lib/index.js",
+  "bin": {
+    "revbin": "bin/revbin.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/en0/revbin.git"
+  },
+  "author": "Ian Laird <irlaird@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/en0/revbin/issues"
+  },
+  "homepage": "https://github.com/en0/revbin#readme",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "buffer-reverse": "^1.0.1"
+  }
+}
